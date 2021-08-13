@@ -1,0 +1,24 @@
+<html lang="pt-br">
+	<title>Conectivit</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css" >
+	
+	<body>
+		<center>
+			<div id="corpo">
+				<button class="button" id="mtu">MTU</button>
+				<button class="button" id="checksum">CHECKSUM</button>
+			</div>
+		</center>
+	</body>
+	<script>
+		document.getElementById("mtu").onclick = function(){
+			alert("MTU");
+			window.location.assign("mtu.html");
+		};
+		document.getElementById("checksum").onclick = function(){
+			alert("CHECKSUM");
+			window.location.assign("checksum.html");
+		};
+	</script>
+</html>
